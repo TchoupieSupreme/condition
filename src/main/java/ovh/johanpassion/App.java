@@ -13,7 +13,7 @@ public class App {
         int nbVente = clavier.nextInt();
         if (nbVente>=quotas){
             salaire = salaire+prime;
-            System.out.println("Félicitations, votre salaire est de "+ salaire+ " € car vous avez reçu une prime !");
+            System.out.println("Félicitations, votre salaire est de "+ salaire+ " € car vous avez reçu une prime en effectuant votre quota !");
         }else{
             System.out.println("Vous n'avez pas rempli le quotas il vous manque "+(quotas-nbVente)+" ventes pour avoir la prime, votre salaire est donc de "+salaire+" €");
         }
