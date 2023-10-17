@@ -15,7 +15,7 @@ public class App {
             salaire = salaire+prime;
             System.out.println("Félicitations, votre salaire est de "+ salaire+ " € car vous avez reçu une prime !");
         }else{
-            System.out.println("Vous n'avez pas rempli le quotas il vous manquais "+(quotas-nbVente)+" ventes pour avoir la prime, votre salaire est donc de "+salaire+" €");
+            System.out.println("Vous n'avez pas rempli le quotas il vous manque "+(quotas-nbVente)+" ventes pour avoir la prime, votre salaire est donc de "+salaire+" €");
         }
         
         clavier.close();
